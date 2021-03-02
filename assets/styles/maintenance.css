@@ -1,0 +1,38 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.gif {
+    text-align: center;
+    margin-top: 15%;
+}
+.gif img{
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+/* ====================================== Responsive ====================================== */
+
+/* ====================================== Tablet ====================================== */
+@media all and (max-width: 1000px) {
+    .gif img {
+        width: 50%;
+    }
+}
+
+/* ====================================== Smartphone ====================================== */
+@media all and (max-width: 670px) {
+    .heading h2 {
+        font-size: 18px;
+    }
+}

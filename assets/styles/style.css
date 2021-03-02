@@ -130,8 +130,9 @@ nav {
   
 .article-icon {
     position: relative;
+    text-align: center;
 }
-  
+
 .article-icon p {
     position: absolute;
     top: 44%;
@@ -143,17 +144,22 @@ nav {
     display: inline-block;
     margin-top: 15px;
     font-size: 16px;
-    color: #b3aeb5;
+    color: #333;
     line-height: 1.5;
+}
+
+.text-contents a:link{
+    color: #4daaa7;
+}
+
+.text-contents a:visited{
+    color: #4daaa7;
 }
 
 .author {
     margin: 15px 0;
 }
   
-.media-sosial {
-    display: float;
-}
 footer img {
     width: 125px;
 }
