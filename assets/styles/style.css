@@ -122,7 +122,13 @@ nav {
     font-weight: normal;
     font-size: 30px;
 }
-  
+
+.subheading {
+    padding-top: 5px;
+    padding-bottom: 3px;
+    color: #5f5d60;
+}
+
 .article {
     float: left;
     width: 100%;
@@ -143,7 +149,7 @@ nav {
 .text-contents {
     display: inline-block;
     margin-top: 15px;
-    font-size: 16px;
+    font-size: 20px;
     color: #333;
     line-height: 1.5;
 }
@@ -244,6 +250,14 @@ footer {
     }
     .article-wrapper {
         padding: 0;
+    }
+    .heading h2 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .text-contents {
+        font-size: 18px;
+        line-height: 28px;
     }
     footer {
         text-align: center;
