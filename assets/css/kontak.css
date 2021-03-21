@@ -1,0 +1,39 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* Style logo */
+.navbar-brand {
+  width: 56px;
+  margin-left: 250px;
+}
+
+/* Style navbar */
+.collapse,
+.navbar-collapse {
+  margin-right: 240px;
+}
+
+.nav-item a {
+  color: #4daaa7;
+}
+
+@media all and (max-width: 990px) {
+  .navbar-brand {
+    margin-left: 10px;
+  }
+
+  .collapse,
+  .navbar-collapse {
+    margin-right: 0;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+}
