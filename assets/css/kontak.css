@@ -1,39 +1,105 @@
 /* Reset */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700&display=swap");
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0;
   margin: 0;
   text-decoration: none;
   list-style: none;
 }
 
-/* Style logo */
-.navbar-brand {
-  width: 56px;
-  margin-left: 250px;
+/* Font */
+/* Variable */
+/* Style */
+body {
+  font-family: "Poppins", sans-serif;
 }
 
-/* Style navbar */
-.collapse,
-.navbar-collapse {
-  margin-right: 240px;
+/* Header */
+.header .header-banner {
+  background-image: url(../img/bg-only.svg);
+  background-size: cover;
+  width: 100%;
+  /* Responsive */
+  /* Navbar */
+  /* Akhir Navbar */
 }
 
-.nav-item a {
-  color: #4daaa7;
-}
-
-@media all and (max-width: 990px) {
-  .navbar-brand {
-    margin-left: 10px;
-  }
-
-  .collapse,
-  .navbar-collapse {
-    margin-right: 0;
-  }
-
-  .navbar-nav {
-    text-align: center;
+@media screen and (max-width: 576px) {
+  .header .header-banner {
+    background-image: url(../img/bg-sm.svg);
   }
 }
+
+.header .header-banner .custom-nav .navbar-brand img {
+  width: 55px;
+}
+
+.header .header-banner .custom-nav #navbarNav .navbar-nav .nav-item .nav-link {
+  color: #f5f5f5;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-left: 2.5em;
+  -webkit-transition: 0.3s color ease;
+  transition: 0.3s color ease;
+}
+
+.header .header-banner .custom-nav #navbarNav .navbar-nav .nav-item .nav-link:hover {
+  color: #102524;
+}
+
+@media screen and (max-width: 992px) {
+  .header .header-banner .custom-nav #navbarNav .navbar-nav .nav-item .nav-link {
+    margin-left: auto;
+  }
+}
+
+.header .header-banner .custom-nav #navbarNav .navbar-nav .nav-item .active {
+  background-color: #3f8f8b;
+}
+
+@media screen and (max-width: 992px) {
+  .header .header-banner .custom-nav #navbarNav .navbar-nav {
+    background-color: #4daaa7;
+  }
+}
+
+/* Akhir Header */
+/* Caption Banner */
+.container {
+  /* Akhir Caption Banner */
+  /* Akhir Responsive */
+}
+
+.container .caption-banner .row .col-lg-4 {
+  margin-top: 25%;
+}
+
+.container .caption-banner .row .col-lg-4 h1 {
+  font-size: 2.5em;
+  color: #f5f5f5;
+}
+
+.container .caption-banner .row .col-lg-4 h2 {
+  font-size: 1.3em;
+  color: #f5f5f5;
+}
+
+.container .caption-banner .row .col-lg-8 {
+  margin-top: 20%;
+  /* Ilustrasi Banner */
+  /* Akhir Ilustrasi Banner*/
+  /* Responsive */
+}
+
+.container .caption-banner .row .col-lg-8 img {
+  width: 40vmax;
+}
+
+@media screen and (max-width: 576px) {
+  .container .caption-banner .row .visible {
+    visibility: hidden !important;
+  }
+}
+/*# sourceMappingURL=kontak.css.map */

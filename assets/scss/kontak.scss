@@ -1,0 +1,109 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700&display=swap");
+
+/* Variable */
+$primaryColor: #4daaa7;
+$secondaryColor: #3f8f8b;
+$tertiaryColor: #333;
+$textColor: #f5f5f5;
+
+/* Style */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header */
+.header {
+  .header-banner {
+    background-image: url(../img/bg-only.svg);
+    background-size: cover;
+    width: 100%;
+
+    /* Responsive */
+    @media screen and (max-width: 576px) {
+      background-image: url(../img/bg-sm.svg);
+    }
+
+    /* Navbar */
+    .custom-nav {
+      .navbar-brand {
+        img {
+          width: 55px;
+        }
+      }
+
+      #navbarNav {
+        .navbar-nav {
+          .nav-item {
+            .nav-link {
+              color: $textColor;
+              font-weight: 500;
+              text-transform: uppercase;
+              margin-left: 2.5em;
+              transition: 0.3s color ease;
+
+              &:hover {
+                color: darken($secondaryColor, 30%);
+              }
+              @media screen and (max-width: 992px) {
+                margin-left: auto;
+              }
+            }
+            .active {
+              background-color: $secondaryColor;
+            }
+          }
+          @media screen and (max-width: 992px) {
+            background-color: $primaryColor;
+          }
+        }
+      }
+    }
+    /* Akhir Navbar */
+  }
+}
+/* Akhir Header */
+
+/* Caption Banner */
+.container {
+  .caption-banner {
+    .row {
+      .col-lg-4 {
+        margin-top: 25%;
+        h1 {
+          font-size: 2.5em;
+          color: $textColor;
+        }
+        h2 {
+          font-size: 1.3em;
+          color: $textColor;
+        }
+      }
+      .col-lg-8 {
+        margin-top: 20%;
+        /* Ilustrasi Banner */
+        img {
+          width: 40vmax;
+        }
+        /* Akhir Ilustrasi Banner*/
+        /* Responsive */
+      }
+      @media screen and (max-width: 576px) {
+        .visible {
+          visibility: hidden !important;
+        }
+      }
+    }
+  }
+  /* Akhir Caption Banner */
+
+  /* Akhir Responsive */
+}
