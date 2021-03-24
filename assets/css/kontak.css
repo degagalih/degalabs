@@ -69,7 +69,6 @@ body {
 /* Caption Banner */
 .container {
   /* Akhir Caption Banner */
-  /* Akhir Responsive */
 }
 
 .container .caption-banner .row .col-lg-4 {
@@ -102,4 +101,106 @@ body {
     visibility: hidden !important;
   }
 }
+
+/* Akhir Header */
+/* Main */
+.main {
+  padding-top: 30px;
+  /* Media Sosial */
+  /* Akhir Media Sosial*/
+}
+
+.main .container {
+  background-color: #f5f5f5;
+}
+
+.main .container .media-sosial {
+  padding: 200px 0;
+  /* Responsive */
+}
+
+@media screen and (max-width: 768px) {
+  .main .container .media-sosial {
+    padding: 100px 0;
+  }
+}
+
+.main .container .row .col-lg-2 {
+  text-align: center;
+}
+
+.main .container .row .col-lg-2 a {
+  text-align: center;
+  font-size: 100px;
+  color: #4daaa7;
+  margin: 0 16px;
+  -webkit-transition: 0.4s linear;
+  transition: 0.4s linear;
+  position: relative;
+}
+
+.main .container .row .col-lg-2 a::before, .main .container .row .col-lg-2 a::after {
+  content: "";
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  -webkit-transition: 0.4s linear;
+  transition: 0.4s linear;
+}
+
+.main .container .row .col-lg-2 a:hover {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
+.main .container .row .col-lg-2 a:hover::before {
+  border-left: 4px solid;
+  border-right: 4px solid;
+  -webkit-transform: skewX(20deg);
+          transform: skewX(20deg);
+}
+
+.main .container .row .col-lg-2 a:hover::after {
+  border-top: 4px solid;
+  border-bottom: 4px solid;
+  -webkit-transform: skewY(-20deg);
+          transform: skewY(-20deg);
+}
+
+/* Akhir Main */
+/* Footer */
+.footer {
+  padding-top: 20px;
+  background-color: #333;
+  color: #f5f5f5;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.footer .container .row .col-lg-6 ul,
+.footer .container .row .col-sm ul {
+  padding-left: 0;
+}
+
+.footer .container .row .col-lg-6 img,
+.footer .container .row .col-sm img {
+  width: 115px;
+}
+
+.footer .container .row .col-lg-6 a,
+.footer .container .row .col-sm a {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+.footer .container .row .col-lg-6 a:hover,
+.footer .container .row .col-sm a:hover {
+  color: #4daaa7;
+}
+
+/* Akhir Footer*/
 /*# sourceMappingURL=kontak.css.map */
