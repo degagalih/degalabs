@@ -1,0 +1,13 @@
+/* mendefinisikan folder dengan semua file didalamnya */
+
+/draft-artikel-degalabs/
+/mockup-design-blog-degalabs/
+/.vscode/
+
+/* mendefinisikan file index.php */
+
+# index.php
+
+/* mendefinisikan semua file yang berextensi .txt */
+
+# *.txt
