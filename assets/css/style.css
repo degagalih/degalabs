@@ -59,7 +59,7 @@ p {
 
 .img-main {
   width: 100% !important;
-  height: 700px !important;
+  max-height: 700px !important;
 }
 
 .img-thumbnail {
